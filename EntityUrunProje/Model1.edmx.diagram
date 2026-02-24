@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="588a65ec16d04c1892f4f6a49e59aa4e" Name="Diagram1">
+        <EntityTypeShape EntityType="DbEntityUrunModel.TBLKATEGORILER" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbEntityUrunModel.TBLMUSTERILER" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbEntityUrunModel.TBLURUNLER" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbEntityUrunModel.TBSATISLAR" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="DbEntityUrunModel.FK_TBLURUNLER_TBLKATEGORILER" ManuallyRouted="false" />
+        <AssociationConnector Association="DbEntityUrunModel.FK_TBSATISLAR_TBLMUSTERILER" ManuallyRouted="false" />
+        <AssociationConnector Association="DbEntityUrunModel.FK_TBSATISLAR_TBLURUNLER" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbEntityUrunModel.TBLADMIN" Width="1.5" PointX="5.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
